@@ -69,7 +69,7 @@ root 3 dür
 
 Rootun Sağında ve Solunda olan değerler aşağıdadır
 
-    3
+   3
 /       \
 1         7
 / \       /   \
