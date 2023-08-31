@@ -1,5 +1,8 @@
 # Insertion Sort Projesi
 ## Insertion Sort
+
+>   [22,27,16,2,18,6] -> Insertion Sort
+
 - Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
    > 1. [22,27,16,2,18,6]
@@ -24,3 +27,52 @@ Aradığımız sayı dizinin ortasında. **Average case.**
 >    2. [2,3,5,8,7,9,4,15,6]
 >    3. [2,3,4,8,7,9,5,15,6]
 >    4. [2,3,4,5,7,9,8,15,6]
+
+
+
+## Merge Sort
+
+
+>[16,21,11,8,12,22] -> Merge Sort
+
+> 1.Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+> 2.Big-O gösterimini yazınız.
+
+Sırsıyla ikiye bölünür
+
+> [16 21 11 ] [ 8 12 22]
+
+> [16 21] [ 11] [ 8 12] [22]
+
+> [16] [21] [11] [8] [12] [22]
+
+Sıralı bir şekilde birleştirme aşamasına geçilir
+
+> [16 21] [11] [8 12] [22]
+> [11 16 20] [8 12 22]
+
+Son Birleştirme
+
+> [8 11 12 16 20 22]
+
+Big O gösterimi log2n=x yani logn olarak alınabilir.
+
+
+
+## Binary Search tree
+
+> [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Root Seçilir
+
+root 3 dür
+
+Rootun Sağında ve Solunda olan değerler aşağıdadır
+
+    3
+/       \
+1         7
+/ \       /   \
+0  2      5     8
+        /  \       \
+       4    6      9
